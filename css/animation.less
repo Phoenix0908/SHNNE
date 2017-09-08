@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  border: 0 none;
+  vertical-align: baseline;
+}
+
+body {
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.nav_content{
+  .nav_right_ul{
+    li:nth-child(4) a{
+      border: 1px solid gray;
+      color: white;
+    }
+  }
+}
+.head{
+  width: 100%;
+  background: black;
+  position: relative;
+  .head_content{
+    display: block;
+    width: 1127px;
+    height:580px;
+    position: relative;
+    img{
+      width: 1127px;
+    }
+    .stop_icon{
+      position: absolute;
+      top:50%;
+      left: 50%;
+      width: 45px;
+      margin-left: -45/2px;
+      margin-top: -45/2px;
+    }
+  }
+  .head_bottom{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: black;
+    opacity: 0.6;
+    font-size: 25px;
+    color: darkgray;
+    text-align: center;
+  }
+}
+.list{
+  width:1127px;
+  .list_ul{
+    width:100%;
+    li{
+      float: left;
+      width:350px;
+      margin-left: 20px;
+      margin-top:20px;
+      .list_img{
+        position: relative;
+        img:nth-child(1){
+          width: 350px;
+        }
+        img:nth-child(2){
+          position: absolute;
+          top:50%;
+          left: 50%;
+          width:21px;
+          height: 25px;
+          margin-top: -21/2px;
+          margin-left: -25/2px;
+        }
+      }
+      span{
+        display: block;
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+@media only screen and(min-width:100px) and (max-width: 1127px){
+  .head .head_content{
+    width: 100%;
+    height: 100%;
+  }
+  .head .head_content img {
+    width: 100%;
+  }
+  .list{
+    width: 100%;
+  }
+  .list .list_ul li{
+    width:30%;
+    margin-left: 2.6%;
+  }
+  .list .list_ul li .list_img img:nth-child(1) {
+    width: 100%;
+  }
+}

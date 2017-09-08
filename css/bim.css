@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+img {
+  border: 0 none;
+  vertical-align: baseline;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+.nav_content .nav_right_ul li:nth-child(5) a {
+  border: 1px solid gray;
+  color: white;
+}
+.bim_one {
+  width: 100%;
+  background: #e0e0e0;
+}
+.bim_one .bim_one_content {
+  width: 980px;
+}
+.bim_one .bim_one_content .content_left {
+  float: left;
+  width: 50%;
+  margin-top: 200px;
+}
+.bim_one .bim_one_content .content_left img {
+  width: 30%;
+}
+.bim_one .bim_one_content .content_right {
+  float: right;
+  width: 36.2244898%;
+  margin-top: 167px;
+}
+.bim_two {
+  width: 100%;
+}
+.bim_two .bim_two_content {
+  width: 980px;
+}
+.bim_two .bim_two_content .content_left {
+  float: left;
+  width: 30%;
+  margin-top: 200px;
+}
+.bim_two .bim_two_content .content_left img {
+  width: 75%;
+}
+.bim_two .bim_two_content .content_right {
+  float: right;
+  width: 36.2244898%;
+  margin-right: 46px;
+}
+.bim_three {
+  width: 100%;
+  background: #e0e0e0;
+}
+.bim_three .bim_three_content {
+  width: 980px;
+}
+.bim_three .bim_three_content .content_left {
+  float: left;
+  width: 50%;
+  margin-top: 165px;
+  margin-left: -150px;
+}
+.bim_three .bim_three_content .content_right {
+  float: left;
+  width: 60%;
+  margin-top: 200px;
+}
+.bim_three .bim_three_content .content_right p {
+  width: 50%;
+  margin-top: 20px;
+}
+.bim_three .bim_three_content .content_right img {
+  margin-top: 20px;
+}
+.bim_four {
+  width: 100%;
+}
+.bim_four .bim_four_content {
+  width: 980px;
+  position: relative;
+}
+.bim_four .bim_four_content .content_left {
+  float: left;
+  width: 50%;
+  margin-left: -87px;
+}
+.bim_four .bim_four_content .content_right {
+  float: right;
+  width: 50%;
+  margin-top: 150px;
+}
+.bim_four .bim_four_content .content_text {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  width: 40%;
+}
+.bim_four .bim_four_content .content_text p {
+  width: 70%;
+}
+.bim_four .bim_four_content .content_text img {
+  width: 70%;
+}
+.bim_five {
+  width: 100%;
+  background: #e0e0e0;
+}
+.bim_five .bim_five_content {
+  width: 980px;
+}
+.bim_five .bim_five_content .content_left {
+  float: left;
+  width: 30%;
+  margin-top: 200px;
+}
+.bim_five .bim_five_content .content_left img {
+  width: 75%;
+}
+.bim_five .bim_five_content .content_right {
+  float: right;
+  width: 50%;
+  margin-right: 70px;
+}

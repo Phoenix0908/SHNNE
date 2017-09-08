@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  border: 0 none;
+  vertical-align: baseline;
+}
+
+body {
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+.nav_content{
+  .nav_right_ul{
+    li:nth-child(6) a{
+      border: 1px solid gray;
+      color: white;
+    }
+  }
+}
+.contact{
+  width: 100%;
+  background: rgb(248, 248, 248);
+  .contact_content{
+    height:575px;
+    background: url("../img/con4.png") no-repeat center;
+    padding-top: 82px;
+    text-align: center;
+    p{
+      font-size: 24px;
+    }
+    span{
+      display: inline-block;
+      height:35px;
+      padding-left: 40px;
+      background: url("../img/sixth/con3.jpg") no-repeat;
+      margin-top: 40px;
+    }
+    .contact_ul{
+      margin-top: 80px;
+      li{
+        display: inline-block;
+        width: 222px;
+        div{
+          display: inline-block;
+          i{
+            display: block;
+            font-style: normal;
+          }
+        }
+      }
+      :nth-child(3){
+        width:444px;
+        i{
+          width:80%;
+          font-style: normal;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
